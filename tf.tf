@@ -6,19 +6,19 @@ terraform {
     }  
   }
   backend "azurerm" {
-      resource_group_name  = "dadi41"
-      storage_account_name = "kapi41"                  
-      container_name       = "container41"            
+      resource_group_name  = "ponda1"
+      storage_account_name = "tattu20"                  
+      container_name       = "con99"            
       key                  = "prod.terraform.tfstate" 
 
     }
 }
 provider "azurerm" {
   features {}
-  subscription_id = "f7d28834-9c52-41d7-adc6-8ae678eef59f"
+  subscription_id = "3be29ba2-b31c-4fbd-a7bb-c51bf50ef740"
 }
 resource "azurerm_resource_group" "dadi41" {
-  name     = "dadi41"
+  name     = "dada41"
   location = "east us"
 }
 resource "azurerm_storage_account" "stb41" {
